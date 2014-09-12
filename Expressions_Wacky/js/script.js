@@ -37,3 +37,10 @@ console.log(yBirth); //Console log out the year
 //The total for the second prize
 var lotprize2 = (yBirth * number2) - newNo;
 console.log(lotprize2); //Console log out the second prize data
+
+//Let now the user the prizes
+var text = "You prizes are: " //To use it in the alert to let the user know the prizes
+
+//Show the prizes to the user
+console.log(text + "car: " + lotprize1 + " and $" + lotprize2 + " dollars");
+alert(text + "car: " + lotprize1 + " and $" + lotprize2 + " dollars");
