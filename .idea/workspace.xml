@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a2caeea-1d3f-44b1-9b6d-e139a6b15ae5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Expressions_Industrial/js/script.js" afterPath="$PROJECT_DIR$/Expressions_Industrial/js/script.js" />
-    </list>
+    <list default="true" id="2a2caeea-1d3f-44b1-9b6d-e139a6b15ae5" name="Default" comment="" />
     <ignored path="Quinones_Felipe_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -100,8 +98,8 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Expressions_Industrial/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.68359375" vertical-offset="0" max-vertical-offset="768">
-              <caret line="35" column="98" selection-start-line="35" selection-start-column="98" selection-end-line="35" selection-end-column="98" />
+            <state vertical-scroll-proportion="0.1953125" vertical-offset="0" max-vertical-offset="768">
+              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -551,8 +549,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Expressions_Industrial/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68359375" vertical-offset="0" max-vertical-offset="768">
-          <caret line="35" column="98" selection-start-line="35" selection-start-column="98" selection-end-line="35" selection-end-column="98" />
+        <state vertical-scroll-proportion="0.1953125" vertical-offset="0" max-vertical-offset="768">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
