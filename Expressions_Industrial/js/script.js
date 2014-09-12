@@ -21,3 +21,9 @@ var callsAban = prompt("How many calls were abandoned?"); // Variable for calls 
 console.log(callsAns);
 console.log(callsAnsInTime);
 console.log(callsAban);
+
+// Calculation for Service Level Percent
+var totalCallsAns = Number(callsAns) + Number(callsAban); // This is the calculation to gain the Calls Offered
+console.log(totalCallsAns); // Console.log out calls offered
+var servLvl = Math.round(((callsAnsInTime / totalCallsAns) * 100) * 100) / 100; // Round up the result, less decimal digits
+console.log(text1 + servLvl + text3); // Console.log out Service Level
