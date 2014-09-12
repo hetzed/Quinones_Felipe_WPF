@@ -31,3 +31,6 @@ console.log(text1 + servLvl + text3); // Console.log out Service Level
 // Calculation for Abandoned Calls Percent
 var abnCallsPer = Math.round((callsAban / totalCallsAns) * 100) * 100 / 100; // Round up the result, less decimal digits
 console.log(text2 + abnCallsPer + text3); // Console.log out Abandoned
+
+// Lets say the results to the user
+alert("Call Center results:\n" + text1 + servLvl + text3 + " and " + text2 + abnCallsPer + text3);
