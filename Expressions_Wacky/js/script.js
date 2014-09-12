@@ -17,3 +17,11 @@ console.log(number); //Console log out the number selected by the user
 //Increment the number selected by the user
 number = ++number;
 console.log(number); //Console log out the number incremented
+
+// This variable will show what car is selected
+var lotprize1 = cars[number]; //The number stored in the variable number becomes the index number that will be the selected car.
+console.log(lotprize1); //Console log out the selected car
+
+//Now the user will tell us another number to select the next lottery prize
+var number2 = Number(prompt("Select a number from 10 to 20"));
+console.log(number2); //Console log out the number selected by the user
