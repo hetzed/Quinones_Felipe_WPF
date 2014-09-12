@@ -16,3 +16,8 @@ var text3 = " percent";
 var callsAns = prompt("How many calls were answered?"); // Variable for calls answered and prompt user to give the number of answered calls
 var callsAnsInTime = prompt("How many of those calls were answered within threshold?"); // Variable for calls answered within threshold and prompt the user to give the number of the calls
 var callsAban = prompt("How many calls were abandoned?"); // Variable for calls abandoned and prompt the user to give the number of those calls
+
+// Console.log out variables
+console.log(callsAns);
+console.log(callsAnsInTime);
+console.log(callsAban);
