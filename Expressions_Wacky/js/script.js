@@ -25,3 +25,15 @@ console.log(lotprize1); //Console log out the selected car
 //Now the user will tell us another number to select the next lottery prize
 var number2 = Number(prompt("Select a number from 10 to 20"));
 console.log(number2); //Console log out the number selected by the user
+
+//This total will be use to establish the second prize
+var newNo = number - number2;
+console.log(newNo); //Console log out the total
+
+//The user will tell us the year to select the second prize
+var yBirth = Number(prompt("What year where you born?"));
+console.log(yBirth); //Console log out the year
+
+//The total for the second prize
+var lotprize2 = (yBirth * number2) - newNo;
+console.log(lotprize2); //Console log out the second prize data
