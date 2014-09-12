@@ -49,7 +49,7 @@ var afterTaxes = Math.round((weekSalary - socSec - mediCare)*100)/100; //round t
 //Console.log out afterTaxes
 console.log("After paying your social security and medicare you\'ll get the amount of $" + afterTaxes + " dollars.");
 
-
-
+// Tell the user how much he/her will make a week gross and after taxes
+alert("You\'ll get this week the amount of $" + weekSalary + " dollars before taxes.\nAfter paying your social security and medicare you\'ll get the amount of $" + afterTaxes + " dollars.\n\nHave a nice day!");
 
 
