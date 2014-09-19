@@ -19,3 +19,16 @@ var callsAIT_Tues = prompt("How many calls were answered in time?");
 
 console.log(callsTues + " calls on Tuesday"); //Console log calls received on Tuesday
 console.log(callsAIT_Tues + " calls in time Tuesday"); //Console log calls answered in time on Tuesday
+
+//Validate info
+if (callsMon, callsAIT_Mon, callsTues, callsAIT_Tues === "") {
+    alert("You did not enter an answer for the questions.");
+    console.log("You did not enter an answer for the questions.");
+//if the two variables were answer continue...
+} else {
+    //Now we have to set what is the service level for each day
+    //Variables for SL(service level)
+    var slA = (callsAIT_Mon / callsMon) * 100; // Round up the result, less decimal digits
+    console.log(slA + "%");
+    var slB = (callsAIT_Tues / callsTues) * 100; // Round up the result, less decimal digits
+    console.log(slB + "%");
