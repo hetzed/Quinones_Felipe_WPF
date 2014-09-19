@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a2caeea-1d3f-44b1-9b6d-e139a6b15ae5" name="Default" comment="" />
+    <list default="true" id="2a2caeea-1d3f-44b1-9b6d-e139a6b15ae5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conditionals_Industrial/js/script.js" afterPath="$PROJECT_DIR$/Conditionals_Industrial/js/script.js" />
+    </list>
     <ignored path="Quinones_Felipe_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,8 +38,8 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Conditionals_Industrial/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="781">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.2496799" vertical-offset="0" max-vertical-offset="781">
+              <caret line="13" column="99" selection-start-line="13" selection-start-column="99" selection-end-line="13" selection-end-column="99" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -83,6 +85,7 @@
         <option value="$PROJECT_DIR$/../Quinones_Felipe_WPF-Orig/Expressions_Wacky/js/script.js" />
         <option value="$PROJECT_DIR$/Expressions_Wacky/js/script.js" />
         <option value="$PROJECT_DIR$/../Quinones_Felipe_WPF-Orig/Conditionals_Industry/js/script.js" />
+        <option value="$PROJECT_DIR$/Conditionals_Industrial/js/script.js" />
       </list>
     </option>
   </component>
@@ -529,8 +532,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Conditionals_Industrial/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="781">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.2496799" vertical-offset="0" max-vertical-offset="781">
+          <caret line="13" column="99" selection-start-line="13" selection-start-column="99" selection-end-line="13" selection-end-column="99" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
