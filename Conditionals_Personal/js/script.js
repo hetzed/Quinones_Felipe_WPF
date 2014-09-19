@@ -40,3 +40,14 @@ if(timeToWait != ""){
     //How much time you are waiting
     console.log("You are waiting " + timeToWait + " minutes for coffee.");
 }
+
+//How much will take...
+if(peopleInline >= 3 || timeToWait >= 10){
+    //If going to take long
+    console.log("Get ready to wait!");
+//If it not going to take long
+}else{
+    //If not going to take long
+    console.log("You are safe, doesn't have too wait too much.");
+}
+alert(peopleInline * timeToWait + " minutes for your turn to get coffee.");
