@@ -5,23 +5,23 @@
  */
 
 //Getting stronger than others.
-//You weight.
+//Your weight.
 
-var mWeight = prompt("What is your weight");
+var mWeight = prompt("What is your weight?");
 //Console.log out mWeight
 console.log(mWeight);
 
 //Target weight.
 
-var tWeight = prompt("What is your target weight");
+var tWeight = prompt("What is your target weight?");
 //Console.log out tWeight
-console.log(tWeightWeight);
+console.log(tWeight);
 
 var others = false; //if others are stronger than me.
 
 if(mWeight <= tWeight || others === true){
-    console.log("I'm Stronger");
-}else{
     console.log("Boooh!!!!");
+}else{
+    console.log("I'm Stronger");
 }
 
