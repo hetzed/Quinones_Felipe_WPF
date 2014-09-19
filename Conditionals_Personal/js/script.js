@@ -24,5 +24,6 @@ if(peopleInline != ""){
     console.log("There are " + peopleInline + " people waiting for coffee.");
 }
 
-
+//How much time you have to wait for the coffee
+var timeToWait = Number(prompt("How much minutes are you waiting for the coffee?"));
 
