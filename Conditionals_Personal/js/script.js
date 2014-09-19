@@ -27,3 +27,16 @@ if(peopleInline != ""){
 //How much time you have to wait for the coffee
 var timeToWait = Number(prompt("How much minutes are you waiting for the coffee?"));
 
+//Now validate if the user enter data
+if(timeToWait != ""){
+    //How many people is in the line
+    console.log("You are waiting " + timeToWait + " minutes for coffee.");
+//Check if user entered information
+}else{
+    //Alert the user if forgot to enter the info
+    alert("Hey!, you forgot to enter the minutes.");
+    //Ask the user again
+    timeToWait = Number(prompt("How much minutes are you waiting for the coffee?"));
+    //How much time you are waiting
+    console.log("You are waiting " + timeToWait + " minutes for coffee.");
+}
