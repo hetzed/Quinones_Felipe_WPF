@@ -32,3 +32,7 @@ if (callsMon, callsAIT_Mon, callsTues, callsAIT_Tues === "") {
     console.log(slA + "%");
     var slB = (callsAIT_Tues / callsTues) * 100; // Round up the result, less decimal digits
     console.log(slB + "%");
+
+    // Now we have the SL for the days, now we have to compare each to establish what is the best service level
+    (slA < slB) ? console.log("Tuesday have a better SL") : console.log("Monday have a better SL");
+}
