@@ -8,9 +8,7 @@
 alert("How much you are going to make this Week?");
 
 // Variable for days worked
-var daysWorked = prompt("How many days you\'ll work this week"); //The number of days that the person is gonna work in the week
-//Console.log out daysWorked
-console.log(daysWorked);
+
 
 // Variable for hours worked
 var hoursWorked = prompt("How many hours per day are you going to work?");
