@@ -10,4 +10,5 @@
 var callsMon = prompt("How many calls the call center received on Monday?");
 var callsAIT_Mon = prompt("How many calls were answered in time?");
 
-
+console.log(callsMon + " calls on Monday"); //Console log calls received on Monday
+console.log(callsAIT_Mon + " calls in time Monday"); //Console log calls answered in time on Monday
