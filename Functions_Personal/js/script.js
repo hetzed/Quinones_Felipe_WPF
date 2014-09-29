@@ -18,11 +18,11 @@ while (! (dd > 0)){
     console.log(dd); //console that out
 }
 
-var oPlit = 33.8; //var ounces per liter
-var onzas = 16; //var ounces
+oPlit = 33.8; //var ounces per liter
+onzas = 16; //var ounces
 
 //Set Up totals
-var totals = calcLiters (nOfGymmers, onzas, dd, oPlit);
+var totals = calcLiters(nOfGymmers, onzas, dd, oPlit);
 
 //Function
 function calcLiters(nOfGymmers, onzas, dd, oPlit) {
@@ -39,4 +39,8 @@ if (totals <= 1){
 if (totals >=2 && totals <=20){
     alert("You need" + " " + totals + " " + "liters of water.");
     console.log(totals); //console that out
+}
+else{
+    alert(totals + " " + " liters " + " OOps too much!");
+    console.log(totals);
 }
