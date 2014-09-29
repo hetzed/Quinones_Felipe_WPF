@@ -29,3 +29,4 @@ function calcLiters (nOfGymmers, onzas, dd, oPlit) {
     var liters = (nOfGymmers * onzas * dd) / (oPlit);
     return liters;
 }
+console.log(totals); //console that out
