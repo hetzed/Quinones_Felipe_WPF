@@ -25,8 +25,18 @@ var onzas = 16; //var ounces
 var totals = calcLiters (nOfGymmers, onzas, dd, oPlit);
 
 //Function
-function calcLiters (nOfGymmers, onzas, dd, oPlit) {
+function calcLiters(nOfGymmers, onzas, dd, oPlit) {
     var liters = (nOfGymmers * onzas * dd) / (oPlit);
     return liters;
 }
 console.log(totals); //console that out
+
+if (totals <= 1){
+    alert("You need" + " " + totals + " " + "liters of water.");
+    console.log(totals);
+}
+
+if (totals >=2 && totals <=20){
+    alert("You need" + " " + totals + " " + "liters of water.");
+    console.log(totals); //console that out
+}
