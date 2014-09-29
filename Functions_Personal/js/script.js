@@ -18,5 +18,5 @@ while (! (dd > 0)){
     console.log(dd); //console that out
 }
 
-var oPlit = 33.8; //ounces per liter
-
+var oPlit = 33.8; //var ounces per liter
+var onzas = 16; //var ounces
